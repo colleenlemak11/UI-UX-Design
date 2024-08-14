@@ -4,5 +4,8 @@
 - Language(s): Kotlin
 - Tool(s): Android Studio, IntelliJ
 
-## Details:
+## Details
 - Repository of projects created in CPSC 331
+
+## Featured Projects
+- PennyWise Finance Management Application
