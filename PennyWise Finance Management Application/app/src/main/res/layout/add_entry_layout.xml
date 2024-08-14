@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/amountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amount"
+        android:textSize="21sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amountLabel"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:hint="@string/amount_hint"/>
+
+    <TextView
+        android:id="@+id/dateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textSize="21sp"
+        android:layout_below="@id/amountEditText"
+        android:layout_marginTop="16dp"/>
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="272dp"
+        android:layout_height="86dp"
+        android:layout_below="@id/dateLabel"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <!--<EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateLabel"
+        android:layout_marginTop="8dp"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:hint="@string/date_hint" />-->
+
+    <TextView
+        android:id="@+id/friendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friend"
+        android:textSize="21sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/datePicker"/>
+
+    <EditText
+        android:id="@+id/friendEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/friendName"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:hint="@string/friend_hint"/>
+
+    <TextView
+        android:id="@+id/categoryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_select"
+        android:textSize="21sp"
+        android:layout_below="@id/friendEditText" />
+
+    <!-- Radio Group for Categories -->
+    <RadioGroup
+        android:id="@+id/categoryRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryLabel"
+        android:layout_marginTop="8dp">
+
+        <!-- Entertainment Radio Button -->
+        <RadioButton
+            android:id="@+id/radioEntertainment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entertainment"/>
+
+        <!-- Food Radio Button -->
+        <RadioButton
+            android:id="@+id/radioFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food"/>
+
+        <!-- Shopping Radio Button -->
+        <RadioButton
+            android:id="@+id/radioShopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shopping"/>
+
+        <!-- Other Radio Button -->
+        <RadioButton
+            android:id="@+id/radioOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/other"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/paidText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paid_q"
+        android:textSize="21sp"
+        android:layout_below="@id/categoryRadioGroup" />
+
+    <RadioGroup
+        android:id="@+id/paid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/paidText">
+
+        <RadioButton
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="@string/y"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48sp"
+            android:minHeight="48sp"
+            android:text="@string/n"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paid"
+        android:layout_marginBottom="-60dp"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:text="@string/add_button"
+        android:textSize="18sp" />
+</RelativeLayout>

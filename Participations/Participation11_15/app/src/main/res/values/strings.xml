@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lights Out</string>
+    <string name="title_game">Game</string>
+    <string name="title_color">Color</string>
+    <string name="title_help">Help</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="help_instructions">Turn off all the lights to win!</string>
+    <string name="light_bulb">Light bulb</string>
+    <string name="choose_color">Choose a color:</string>
+    <string name="new_game">New Game</string>
+</resources>

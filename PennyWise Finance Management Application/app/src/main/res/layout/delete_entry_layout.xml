@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Entry"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+
+    <!-- Column Headers -->
+    <LinearLayout
+        android:id="@+id/columnHeadersLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/titleTextView"
+        android:padding="10dp">
+
+
+        <!-- Date Column -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <!-- Amount Column -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Amount"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <!-- Category Column -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Category"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <!-- Person Column -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Person"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!-- Buttons at the Bottom -->
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <!-- Cancel Button -->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <!-- DELETE Button -->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

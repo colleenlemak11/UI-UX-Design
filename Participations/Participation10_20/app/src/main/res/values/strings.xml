@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Memory Game</string>
+    <string name="default_card_icon">🃏</string>
+    <string name="number_of_matches_text">Number of Matches: </string>
+    <string name="gc5_memory_game">Memory Game!</string>
+    <string name="number_of_matches">Number of Matches Left:</string>
+    <string name="play_again">Play Again?</string>
+    <string name="match">Match!</string>
+    <string name="no_match">Retry (No match!)</string>
+</resources>

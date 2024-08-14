@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/party_application"
+        android:title="@string/app_name">
+    </item>
+    <item android:id="@+id/pizza_party"
+        android:title="@string/pizza_party">
+    </item>
+    <item android:id="@+id/lights_out"
+        android:title="@string/lights_out">
+    </item>
+    <item android:id="@+id/darkTheme"
+        android:title="@string/darkTheme">
+    </item>
+    <item android:id="@+id/lightTheme"
+        android:title="@string/lightTheme">
+    </item>
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/activitySMS">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:text="@string/smsTitle"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/phone_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:hint="@string/addPhone"
+        android:inputType="phone"
+        android:autofillHints="@string/addPhone" />
+    <EditText
+        android:id="@+id/msg_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/addMsg"
+        android:autofillHints="@string/addMsg" />
+    <Button
+        android:id="@+id/send_msg_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:padding="5dp"
+        android:text="@string/send_sms"
+        android:textAllCaps="false" />
+
+</LinearLayout>

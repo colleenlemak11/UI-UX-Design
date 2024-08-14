@@ -1,0 +1,99 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PartyApplication" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Theme.PizzaParty.Light" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/light_coral</item>
+        <item name="colorPrimaryDark">@color/light_coral</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:buttonStyle">@style/PizzaLightButton</item>
+    </style>
+
+    <style name="PizzaLightButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@color/light_coral</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Theme.PizzaParty.Dark" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="buttonStyle">@style/PizzaDarkButton</item>
+        <!--<item name="android:editTextStyle">@style/darkEditText</item>-->
+    </style>
+
+    <style name="PizzaDarkButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@color/dark_slate_gray</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="darkEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HomepageButton" parent="Theme.MaterialComponents">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Theme.LightsOut.Light" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="android:background">@color/light_coral</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:buttonStyle">@style/LightsOutLight</item>
+    </style>
+
+    <style name="LightsOutLight" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.LightsOut.Dark" parent="ThemeOverlay.Material3.Dark">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryDark">@color/blue_700</item>
+        <item name="android:background">@color/dark_slate_gray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:buttonStyle">@style/LightsOutDark</item>
+    </style>
+
+    <style name="LightsOutDark" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="LightButton">
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_width">90dp</item>
+    </style>
+
+    <style name="GameOptionButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

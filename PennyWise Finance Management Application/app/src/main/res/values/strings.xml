@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PennyWise by CashCows</string>
+    <string name="welcome">Welcome to PennyWise!</string>
+    <string name="budget">Spending Budget: $0</string>
+    <string name="cur_spending">Current Credit: $0</string>
+    <string name="add_button">Add Expense</string>
+    <string name="set_budget">Set Monthly Budget</string>
+    <string name="date">Date</string>
+    <string name="money">Money</string>
+    <string name="category">Category</string>
+    <string name="person">Person</string>
+    <string name="paid">Paid?</string>
+    <string name="amount">Amount</string>
+    <string name="amount_hint">Enter Decimal Amount</string>
+    <string name="date_hint">Enter Date</string>
+    <string name="friend">Friend Name</string>
+    <string name="friend_hint">Enter Name</string>
+    <string name="category_select">Select Category:</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="food">Food</string>
+    <string name="shopping">Shopping</string>
+    <string name="other">Other</string>
+    <string name="paid_q">Loan Paid?</string>
+    <string name="y">Yes</string>
+    <string name="n">No</string>
+</resources>

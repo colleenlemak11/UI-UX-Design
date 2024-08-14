@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GC5</string>
+    <string name="default_card_icon">🃏</string>
+    <string name="number_of_matches_text">Number of Matches: </string>
+    <string name="gc5_memory_game">Memory Game!</string>
+    <string name="number_of_matches">Number of Matches:</string>
+</resources>

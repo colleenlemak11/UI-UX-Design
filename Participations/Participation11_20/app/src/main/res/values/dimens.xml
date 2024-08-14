@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_size">72sp</dimen>
+    <dimen name="card_margin">20dp</dimen>
+    <dimen name="match_number_size">20sp</dimen>
+    <dimen name="match_button_height">60dp</dimen>
+    <dimen name="larger_card_size">100sp</dimen>
+</resources>

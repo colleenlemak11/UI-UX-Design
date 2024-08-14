@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mood Picker</string>
+    <string name="face1">😀</string>
+    <string name="face2">🙂</string>
+    <string name="face3">😐</string>
+    <string name="face4">😑</string>
+    <string name="face5">😣</string>
+    <string name="mood_indicator">Mood Indicator</string>
+</resources>

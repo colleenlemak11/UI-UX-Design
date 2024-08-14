@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!--<EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date"/>
+
+    <EditText
+        android:id="@+id/moneyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Money"/>
+
+    <EditText
+        android:id="@+id/categoryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Category"/>
+
+    <EditText
+        android:id="@+id/personEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Person"/>
+
+    <EditText
+        android:id="@+id/paid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loan Paid? [Y/N]"/>
+-->
+    <EditText
+        android:id="@+id/limit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:hint="i.e. 52">
+    </EditText>
+</LinearLayout>
+

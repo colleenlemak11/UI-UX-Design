@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GC3</string>
+    <string name="default_icon">🃏</string>
+    <string name="monky">🙈</string>
+    <string name="cardID">🃏</string>
+    <string name="default_card_icon">🙈</string>
+    <string name="number_of_matches_text">Number of Matches: </string>
+</resources>

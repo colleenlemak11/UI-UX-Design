@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_game">
+
+    <fragment
+        android:id="@+id/navigation_game"
+        android:name="com.cpsc333fa23.memory.MemoryGameFragment"
+        android:label="@string/title_game"
+        tools:layout="@layout/fragment_memory_game" />
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.cpsc333fa23.memory.HelpFragment"
+        android:label="@string/title_help"
+        tools:layout="@layout/fragment_help" />
+
+</navigation>

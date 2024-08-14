@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/main_layout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/debug_text_view"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/gc5_memory_game"
+            android:textSize="42sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/number_of_matches"/>
+        <TextView
+            android:id="@+id/matches_left_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/match_number_size"
+            android:text="@integer/default_matches_left"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/match_button_height"
+            >
+
+            <Button
+                android:id="@+id/play_again_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/play_again"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                />
+
+            <Button
+                android:id="@+id/match_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/match"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                />
+
+        </FrameLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/memory"
+            android:adjustViewBounds="true"
+            android:layout_margin="@dimen/card_margin"
+            android:contentDescription="@string/placeholder_image_of_the_memory_game"/>
+
+    </LinearLayout>
+
+
+
+    <!--
+    Cards
+    -->
+
+    <GridLayout
+        android:id="@+id/cards_grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        >
+
+        <TextView
+            android:id="@+id/r1c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/default_card_icon"
+            android:textSize="@dimen/larger_card_size"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/r1c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/default_card_icon"
+            android:textSize="@dimen/larger_card_size"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/r2c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/default_card_icon"
+            android:textSize="@dimen/larger_card_size"
+            android:textAlignment="center"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/r2c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/default_card_icon"
+            android:textSize="@dimen/larger_card_size"
+            android:textAlignment="center"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/r3c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/default_card_icon"
+            android:textSize="@dimen/larger_card_size"
+            android:textAlignment="center"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/r3c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/default_card_icon"
+            android:textSize="@dimen/larger_card_size"
+            android:textAlignment="center"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            />
+
+    </GridLayout>
+
+</LinearLayout>

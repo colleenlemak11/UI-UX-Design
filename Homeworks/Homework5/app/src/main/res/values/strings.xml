@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">The Band Database</string>
+    <string name="details">Details</string>
+
+    <!-- If the number of bands cannot fit in the layout,
+    they are cut off from the view: Add Recycler View to scroll -->
+    <!-- Total of 10 Band Names Here -->
+    <string-array name="bands">
+        <item>The Beatles</item>
+        <item>Nirvana</item>
+        <item>U2</item>
+        <item>The Beach Boys</item>
+        <item>Green Day</item>
+        <item>The 1975</item>
+        <item>One Direction</item>
+        <item>Paramore</item>
+        <item>Arctic Monkeys</item>
+        <item>Panic! At the Disco</item>
+        <item>One Republic</item>
+        <item>Radiohead</item>
+        <item>Bastille</item>
+        <item>Coldplay</item>
+        <item>Maroon 5</item>
+        <item>Twenty-One Pilots</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>An stellar English rock band, formed in Liverpool in 1960.</item>
+        <item>A unique American rock band that formed in Washington in 1987.</item>
+        <item>An Irish rock band which formed in Dublin in 1976.</item>
+        <item>A popular American rock band formed in Hawthorne, California in 1961.</item>
+        <item>An American well-known rock band formed in the East Bay of California in 1987.</item>
+        <item>A hit English pop rock band that formed in Wilmslow in 2002.</item>
+        <item>An English-Irish pop boy band formed in London in 2010.</item>
+        <item>An established American rock band from Franklin, Tennessee formed in 2004.</item>
+        <item>An English rock band formed in Sheffield in 2002.</item>
+        <item>An American pop rock band from Las Vegas, Nevada formed in the year 2004.</item>
+        <item>An American pop rock band formed in Colorado Springs, Colorado in 2002.</item>
+        <item>An English rock band formed in Abingdon, Oxfordshire in 1985.</item>
+        <item>A British indie pop band formed London in 2010.</item>
+        <item>A popular British rock band formed in London in 1997.</item>
+        <item>An American pop rock band from Los Angeles, California in 1994.</item>
+        <item>An American pop band duo from Columbus, Ohio formed in 2009.</item>
+    </string-array>
+</resources>

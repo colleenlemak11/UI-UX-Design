@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pizza_party"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".PizzaPartyController">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_num_people"
+        android:textSize="24sp"
+        android:labelFor="@id/num_attend_edit_text" />
+
+    <EditText
+        android:id="@+id/num_attend_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:inputType="number"
+        android:ems="5"
+        android:importantForAutofill="no"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/ask_hunger"
+        android:textSize="24sp"
+        android:labelFor="@id/spinner_size" />
+
+    <!-- <RadioGroup
+         android:id="@+id/hungry_radio_group"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:theme="@style/Theme.LightsOut.Light">
+         <RadioButton
+             android:id="@+id/light_radio_button"
+             android:text="@string/light"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:minWidth="48dp"
+             android:minHeight="48dp" />
+         <RadioButton
+             android:id="@+id/medium_radio_button"
+             android:text="@string/medium"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:checked="true"
+             android:minWidth="48dp"
+             android:minHeight="48dp" />
+         <RadioButton
+             android:id="@+id/ravenous_radio_button"
+             android:text="@string/ravenous"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:minWidth="48dp"
+             android:minHeight="48dp" />
+     </RadioGroup>-->
+
+    <Spinner
+        android:id="@+id/spinner_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:minWidth="48dp"/>
+    <TextView
+        android:id="@+id/num_pizzas_text_view"
+        android:text="@string/ask_total_pizzas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/calc_button"
+        android:text="@string/button_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/yellow" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/navy"
+    android:id="@+id/activity_main">
+
+    <TextView
+        android:id="@+id/party_app_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/pizza_party"
+        android:layout_centerInParent="true"
+        android:text="@string/homepage_welcome"
+        android:textSize="45sp"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:layout_marginBottom="90dp">
+    </TextView>
+    <Button
+        android:id="@+id/pizza_party"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/pizza_party"
+        android:theme="@style/HomepageButton"
+        android:background="@drawable/round_button"
+        android:padding="4dp">
+    </Button>
+    <Button
+        android:id="@+id/lights_out"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_party"
+        android:layout_alignStart="@id/pizza_party"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_button"
+        android:padding="4dp"
+        android:text="@string/lights_out"
+        android:theme="@style/HomepageButton">
+    </Button>
+    <Button
+        android:id="@+id/send_sms"
+        android:text="@string/send_sms"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lights_out"
+        android:layout_alignStart="@id/lights_out"
+        android:theme="@style/HomepageButton"
+        android:textSize="22sp"
+        android:background="@drawable/round_button"
+        android:padding="4dp">
+    </Button>
+
+</RelativeLayout>

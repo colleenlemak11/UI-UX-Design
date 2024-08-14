@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ThemedCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+            <item name="android:textSize">25sp</item>
+            <item name="colorPrimary">@color/orange</item>
+            <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="style1">
+        <item name="android:textSize">25sp</item>
+        <item name="colorPrimary">@color/maroon</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="style2">
+        <item name="android:textSize">25sp</item>
+        <item name="colorPrimary">@color/plum</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="style3">
+        <item name="android:textSize">25sp</item>
+        <item name="colorPrimary">@color/teal</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="Grid">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="Theme.ThemedCalculator" parent="Base.Theme.ThemedCalculator" />
+</resources>

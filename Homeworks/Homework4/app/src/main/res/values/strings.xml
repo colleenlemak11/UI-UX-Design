@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Party Application</string>
+    <string name="homepage_welcome">Join the Party!</string>
+    <string name="pizza_party">Pizza Party</string>
+    <string name="lights_out">Lights Out</string>
+    <string name="total_pizzas_num">Total pizzas: %d</string>
+    <string name="ask_num_people">Number of people?</string>
+    <string name="ask_hunger">How hungry?</string>
+    <string name="ask_total_pizzas">Total pizzas: ?</string>
+    <string name="button_name">Calculate</string>
+    <string name="light">Light</string>
+    <string name="medium">Medium</string>
+    <string name="ravenous">Ravenous</string>
+    <string name="new_game">New Game</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="help_instructions">Turn off all the lights to win!</string>
+    <string name="light_bulb">Light bulb</string>
+    <string name="help_button">Help</string>
+    <string name="color_button">Change Color</string>
+    <string name="choose_color">Choose a color:</string>
+    <string name="send_sms">Send SMS Stats</string>
+    <string name="smsTitle">SMS Manager</string>
+    <string name="addPhone">Enter your phone number</string>
+    <string name="addMsg">Enter your message</string>
+    <string name="darkTheme">Use Dark Theme</string>
+    <string name="lightTheme">Use Light Theme</string>
+    <string-array name="sizes_array">
+        <item>@string/light</item>
+        <item>@string/medium</item>
+        <item>@string/ravenous</item>
+    </string-array>
+</resources>

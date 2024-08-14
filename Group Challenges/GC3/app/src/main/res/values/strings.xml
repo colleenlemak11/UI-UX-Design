@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GC3</string>
+    <string name="default_icon">🃏</string>
+    <string name="monky">🙈</string> // this is monkey emoji -> other face of card
+    <string name="number_of_matches_text">Number of Matches: </string>
+</resources>
