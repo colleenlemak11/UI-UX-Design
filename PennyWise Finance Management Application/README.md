@@ -4,7 +4,7 @@
 Our user-friendly finance management app addresses the problem of financial illiteracy by simplifying
 expense tracking by allowing the user to see all of their expenses on one screen. In our app, 
 users are able to log, categorize, and edit their own expenses. Also, the app provides a clear and 
-comprehensive overview of users’ financial activity. It assists iniden tifying unnecessary fees, 
+comprehensive overview of users’ financial activity. It assists in identifying unnecessary fees, 
 subscriptions, and hidden costs by offering insights into their spending habits and consolidating 
 all of their expenditures. Setting budget goals and receiving expenditure alerts helps people stay on top of their finances.
 Visualizing financial literacy and expenditures through expense reports/categorizations, bill reminders,
